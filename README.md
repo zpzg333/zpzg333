@@ -2,48 +2,60 @@
 
 # 황사영 | Network Engineer
 
-**12 Years in Data Center · Manufacturing · ISP Networks**
+2014년부터 네트워크 엔지니어로 근무하며 다양한 고객사의 네트워크 구축과 PoC를 수행했습니다. 
+구축 중심의 경력 외 인프라 운영 분야로 전문성을 확장하고자 관련 기술 습득을 이곳에 기록하고 있습니다.
 
-`EVPN/VXLAN` `BGP` `OSPF` `Kubernetes` `ArgoCD`
-`Containerlab` `Python` `Ansible`
+## Featured Engineering Projects
 
-</div>
+### Kubernetes Network Lab
+
+Kubernetes와 ArgoCD를 기반으로 네트워크 테스트 환경을
+선언적으로 배포하고 관리하는 개인 업무 플랫폼입니다.
+
+- DNS, Containerlab, 자동화 워크로드를 Namespace 단위로 분리
+- ArgoCD를 이용한 GitOps 기반 테스트 토폴로지 배포
+- cEOS와 Containerlab 기반 네트워크 장애 재현 환경 구성
+- MetalLB를 이용한 Kubernetes 서비스 네트워크 구성
+
+[View Project](https://github.com/zpzg333/gitops-network-lab)
 
 ---
 
-<p align="center">
-  <img src="./assets/network-platform-architecture.png" width="900">
-</p>
+### Network Automation Platform
 
-<table>
-<tr>
-<td width="50%" valign="top">
+Python과 Ansible 기반 네트워크 점검 프로그램을 컨테이너 이미지로
+빌드하고 Kubernetes Pod에서 실행할 수 있도록 구성했습니다.
 
-## Kubernetes Network Platform
+- 네트워크 장비 상태 자동 점검
+- Python 및 Ansible 실행 환경 컨테이너화
+- ConfigMap을 이용한 점검 코드와 설정 관리
+- 반복 점검 및 테스트 환경의 실행 절차 표준화
 
-Kubernetes와 ArgoCD 기반으로 네트워크 테스트 환경과  
-자동화 워크로드를 배포하는 개인 업무 플랫폼입니다.
+[View Project](https://github.com/zpzg333/network-automation)
 
-- Containerlab 토폴로지 즉시 배포
-- Python·Ansible 점검 Pod 운영
-- GitOps 기반 환경 관리
+---
 
-[프로젝트 상세 보기](프로젝트주소)
+### Internal LLM Wiki
 
-</td>
-<td width="50%" valign="top">
+팀의 기술문서, 장애 사례와 업무 지식을 검색하고 질의할 수 있도록
+내부 LLM Wiki를 구현하여 서비스하고 있습니다.
 
-## Internal LLM Wiki
+보안과 회사 정보 보호를 위해 실제 운영 데이터와 소스코드는 공개하지 않고,
+비식별화된 아키텍처와 구현 사례를 정리합니다.
 
-팀 기술자료와 장애 사례를 검색하고 질의할 수 있도록  
-구현하여 실제 내부 서비스로 운영하고 있습니다.
+[View Case Study](https://github.com/zpzg333/team-llm-wiki-case-study)
 
-- 기술문서 통합
-- 문서 기반 질의응답
-- 지식 검색 및 재사용
+## Certifications
 
-[Case Study 보기](프로젝트주소)
+- Arista ACE:L5
+- Certified Kubernetes Administrator
+- AWS Certified Solutions Architect – Associate
+- 정보통신산업기사
+- CCNP
 
-</td>
-</tr>
-</table>
+## Current Focus
+
+- EVPN/VXLAN 기반 데이터센터 네트워크
+- Kubernetes 기반 네트워크 테스트 환경
+- Network Automation with Python and Ansible
+- AI-assisted Infrastructure Operations
