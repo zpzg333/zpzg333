@@ -1,5 +1,3 @@
-<div align="center">
-
 # 황사영 | Network Engineer
 
 2014년부터 네트워크 엔지니어로 근무하며 다양한 고객사의 네트워크 구축과 PoC를 수행했습니다. 
