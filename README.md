@@ -1,7 +1,7 @@
 # 황사영 | Network Engineer
 
 2014년부터 네트워크 엔지니어로 근무하며 다양한 고객사의 네트워크 구축과 PoC를 수행했습니다. 
-구축 중심의 경력 외 인프라 운영 분야로 전문성을 확장하고자 관련 기술 습득을 이곳에 기록하고 있습니다.
+구축 경력 외 자동화 & 인프라 운영 분야로 전문성을 확장하고자 관련 기술 습득을 이곳에 기록하고 있습니다.
 
 ## Featured Engineering Projects
 
@@ -43,17 +43,3 @@ Python과 Ansible 기반 네트워크 점검 프로그램을 컨테이너 이미
 
 [View Case Study](https://github.com/zpzg333/team-llm-wiki-case-study)
 
-## Certifications
-
-- Arista ACE:L5
-- Certified Kubernetes Administrator
-- AWS Certified Solutions Architect – Associate
-- 정보통신산업기사
-- CCNP
-
-## Current Focus
-
-- EVPN/VXLAN 기반 데이터센터 네트워크
-- Kubernetes 기반 네트워크 테스트 환경
-- Network Automation with Python and Ansible
-- AI-assisted Infrastructure Operations
