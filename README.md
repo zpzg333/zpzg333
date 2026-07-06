@@ -14,7 +14,8 @@ Kubernetes와 ArgoCD를 기반으로 네트워크 테스트 환경을
 - MetalLB (https://github.com/zpzg333/K8S-MetalLB)
 - ContainerLAB (https://github.com/zpzg333/C9S-containerLAB)
 - network automation service (ansible & python) (https://github.com/zpzg333/Ansible)
-- 
+- argocd (https://github.com/zpzg333/my-argocd)
+- monitor [grafana / prometheus] (https://github.com/zpzg333/my-monitor-grafana-prometheus-)
 
 ---
 
@@ -22,9 +23,6 @@ Kubernetes와 ArgoCD를 기반으로 네트워크 테스트 환경을
 
 팀의 기술문서, 장애 사례와 업무 지식을 검색하고 질의할 수 있도록
 내부 LLM Wiki를 구현하여 서비스하고 있습니다.
-
-보안과 회사 정보 보호를 위해 실제 운영 데이터와 소스코드는 공개하지 않고,
-비식별화된 아키텍처와 구현 사례를 정리합니다.
 
 [View Case Study](https://github.com/zpzg333/team-llm-wiki-case-study)
 
