@@ -3,8 +3,6 @@
 2014년부터 네트워크 엔지니어로 근무하며 다양한 고객사의 네트워크 구축과 PoC를 수행했습니다. 
 구축 경력 외 자동화 & 인프라 운영 분야로 전문성을 확장하고자 관련 기술 습득을 이곳에 기록하고 있습니다.
 
-## Featured Engineering Projects
-
 ### Kubernetes Network Lab
 
 Kubernetes와 ArgoCD를 기반으로 네트워크 테스트 환경을
