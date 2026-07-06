@@ -10,6 +10,13 @@
 Kubernetes와 ArgoCD를 기반으로 네트워크 테스트 환경을
 선언적으로 배포하고 관리하는 개인 업무 플랫폼입니다.
 
+github 의 manifast 를 수정하면 argocd 에서 자동 또는 승인 방식으로 k8s의 manifast 를 업데이트 합니다.
+
+<img width="565" height="565" alt="image" src="https://github.com/user-attachments/assets/8adc9b63-8532-4108-a33c-1fd1cb0a6afc" />
+<img width="1258" height="1176" alt="image" src="https://github.com/user-attachments/assets/a94f030d-1c3c-4a34-83d5-167979871d90" />
+<img width="1097" height="469" alt="image" src="https://github.com/user-attachments/assets/cc3faabb-0733-441f-bf67-50ad61203815" />
+
+
 - DNS Service (https://github.com/zpzg333/my-k8s-dns)
 - MetalLB (https://github.com/zpzg333/K8S-MetalLB)
 - ContainerLAB (https://github.com/zpzg333/C9S-containerLAB)
