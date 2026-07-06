@@ -10,26 +10,11 @@
 Kubernetes와 ArgoCD를 기반으로 네트워크 테스트 환경을
 선언적으로 배포하고 관리하는 개인 업무 플랫폼입니다.
 
-- DNS, Containerlab, 자동화 워크로드를 Namespace 단위로 분리
-- ArgoCD를 이용한 GitOps 기반 테스트 토폴로지 배포
-- cEOS와 Containerlab 기반 네트워크 장애 재현 환경 구성
-- MetalLB를 이용한 Kubernetes 서비스 네트워크 구성
-
-[View Project](https://github.com/zpzg333/gitops-network-lab)
-
----
-
-### Network Automation Platform
-
-Python과 Ansible 기반 네트워크 점검 프로그램을 컨테이너 이미지로
-빌드하고 Kubernetes Pod에서 실행할 수 있도록 구성했습니다.
-
-- 네트워크 장비 상태 자동 점검
-- Python 및 Ansible 실행 환경 컨테이너화
-- ConfigMap을 이용한 점검 코드와 설정 관리
-- 반복 점검 및 테스트 환경의 실행 절차 표준화
-
-[View Project](https://github.com/zpzg333/network-automation)
+- DNS Service (https://github.com/zpzg333/my-k8s-dns)
+- MetalLB (https://github.com/zpzg333/K8S-MetalLB)
+- ContainerLAB (https://github.com/zpzg333/C9S-containerLAB)
+- network automation service (ansible & python) (https://github.com/zpzg333/Ansible)
+- 
 
 ---
 
