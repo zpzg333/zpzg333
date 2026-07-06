@@ -2,7 +2,7 @@
 ### Kubernetes Network Lab
 
 Kubernetes와 ArgoCD를 기반으로 네트워크 테스트 환경을
-선언적으로 배포하고 관리하는 개인 업무 플랫폼입니다.
+선언적으로 배포하고 관리하는 개인 클러스터입니다.
 
 GitHub에 저장된 Kubernetes Manifest를 수정하면, Argo CD가 변경 사항을 감지하여 자동 또는 수동 승인 방식으로 Kubernetes 클러스터에 동기화합니다
 
