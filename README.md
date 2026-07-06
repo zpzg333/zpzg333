@@ -24,5 +24,5 @@ Kubernetes와 ArgoCD를 기반으로 네트워크 테스트 환경을
 팀의 기술문서, 장애 사례와 업무 지식을 검색하고 질의할 수 있도록
 내부 LLM Wiki를 구현하여 서비스하고 있습니다.
 
-[View Case Study](https://github.com/zpzg333/team-llm-wiki-case-study)
+(https://github.com/zpzg333/work-llm-automation)
 
